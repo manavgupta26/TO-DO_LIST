@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.parent {
+    background-color: rgb(12, 12, 40);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.box {
+  background-color: rgb(51, 51, 101);
+  border-radius: 7px;
+  width: 40vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  align-items: center;
+}
+.parent figcaption {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: white;
+}
+.input-box {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.box img {
+  height: 80px;
+  width: 50px;
+  margin-bottom: 0px;
+}
+h3 {
+  font-weight: 400;
+  font-size: 1rem;
+}
+.input-box button {
+  padding-right: 5px;
+  box-sizing: border-box;
+  background-color: white;
+  border: none;
+  height: 40px;
+  padding-left: 5px;
+  width: 40px;
+}
+.input-box button:hover {
+  transform: scale(1.01);
+  color: blue;
+}
+.input-box input {
+  height: 40px;
+  width: 50%;
+  border: none;
+  padding-left: 5px;
+  background-color: rgb(220, 216, 216);
+  outline: none;
+  font-weight: 400;
+}
+.show {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  padding: 10px;
+  background-color: white;
+  box-sizing: border-box;
+  height: 35px;
+  padding-bottom: 30px;
+}
+.showbox {
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.show .btn-grp {
+  display: flex;
+  justify-content: space-evenly;
+  width: 80px;
+}
+.btn-grp i:hover {
+  color: rgb(47, 47, 142);
+  transform: scale(1.03);
+}
+#clear {
+  padding: 10px;
+  margin-top: 10px;
+  width: 100px;
+}
+#clear:hover {
+  transform: scale(1.02);
+  font-size: 0.8rem;
+  color: rgb(47, 47, 142);
+  cursor: pointer;
+    box-shadow: 10px 2px 2px 5px black;
+}
